@@ -1,0 +1,63 @@
+*{
+    font-family: sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+#container{
+    height: 50%;
+    width: 50%;
+    position: relative;
+}
+ul{
+    display: flex;
+    width: 100%;
+    list-style: none;
+    align-items: center;
+    justify-content: space-evenly;
+    color: grey;
+    cursor: pointer;
+}
+div{
+    text-align: center;
+    transition: 1s;
+}
+.hidden{
+    display: none;
+}
+.visible{
+  position: relative;  
+  display: block;
+}
+#htmldiv{
+    position: absolute;
+}
+#cssdiv{
+    position: absolute;
+}
+#javascriptdiv{
+    position: absolute;
+}
+#nodediv{
+    position: absolute;
+}
+#reactdiv{
+    position: absolute;
+    transition: 1s;
+}
+h1{
+    color: rgb(211, 4, 211);
+}
+li{
+    font-size: 20px;
+    transition: 1s;
+}
+.selected{
+    border-bottom: 5px solid rgb(211, 4, 211);
+    color: black;
+}
